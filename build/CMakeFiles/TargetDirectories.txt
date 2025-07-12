@@ -1,3 +1,0 @@
-/wp4/war3dev/wc3_DataGen/build/CMakeFiles/wc3_DataGen.dir
-/wp4/war3dev/wc3_DataGen/build/CMakeFiles/edit_cache.dir
-/wp4/war3dev/wc3_DataGen/build/CMakeFiles/rebuild_cache.dir

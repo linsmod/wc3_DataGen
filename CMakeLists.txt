@@ -4,6 +4,7 @@ project(wc3_DataGen)
 # 设置C++标准
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # 编译选项
 add_compile_options(-O0 -DZ_SOLO -DNOLOGGER -g)

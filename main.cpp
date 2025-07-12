@@ -390,7 +390,7 @@ struct MpqBuildData : public BuildData {
       }
     }
     else {
-      Logger::debug("E: listfile.txt is with this app and required hoe does "
+      Logger::debug("E: listfile.txt is with this app and required but does "
                     "not exists.");
       this->hasError = true;
       return;
@@ -404,7 +404,7 @@ struct MpqBuildData : public BuildData {
 };
 
 namespace fs = std::filesystem;
-const std::string DEFAULT_OUTPUT_DIR = "workout"; // 默认输出目录
+const std::string DEFAULT_OUTPUT_DIR = "generated_files"; // 默认输出目录
 int main(int argc, char *argv[]) {
   std::string mpqPath;
   std::string versionStr;
@@ -427,7 +427,7 @@ int main(int argc, char *argv[]) {
                  "contains this program or absolute path."
               << std::endl;
     std::cerr << "  Example: " << argv[0]
-              << " \"/data/WarCraft III/\" -b 1.27.1.7085 -o workout"
+              << " \"/data/WarCraft III/\" -b 1.27.1.7085 -o generated_files"
               << std::endl;
     return EXIT_FAILURE;
   }
