@@ -1,0 +1,1 @@
+awk '!seen[$0]++' "Warcraft III TFT.txt" "Warcraft III ROC.txt" > listfile.txt
