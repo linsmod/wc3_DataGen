@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/wp4/war3dev/wc3_DataGen/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
